@@ -111,7 +111,11 @@ st.subheader("Risk Segment Distribution")
 risk_counts = filtered_df["risk_segment"].value_counts().reset_index()
 risk_counts.columns = ["Risk Segment", "Count"]
 
-fig_seg = px.bar(risk_counts, x="Risk Segment", y="Count",
+fig_seg = px.bar(risk_counts, x="Risk
+
+
+
+ Segment", y="Count",
                  title="Customer Risk Segments")
 
 st.plotly_chart(fig_seg, use_container_width=True)
