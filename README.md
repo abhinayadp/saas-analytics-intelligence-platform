@@ -1,4 +1,4 @@
-SaaS Analytics Intelligence Platform
+SaaS Analytics Platform
 Overview
 
 This project builds an end-to-end SaaS analytics platform that analyzes customer behavior, predicts churn risk, and provides actionable insights through an interactive dashboard.
