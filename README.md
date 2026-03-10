@@ -1,17 +1,10 @@
-# saas-analytics-intelligence-platform
-End-to-end SaaS analytics intelligence platform integrating MongoDB, Streamlit, and XGBoost for churn prediction and risk scoring and AI-generated executive insights.
+SaaS Analytics Intelligence Platform
 Overview
 
-This project is a cloud-based SaaS analytics intelligence platform that combines:
+This project builds an end-to-end SaaS analytics platform that analyzes customer behavior, predicts churn risk, and provides actionable insights through an interactive dashboard.
 
-Data engineering
+The system processes multiple SaaS operational datasets including accounts, subscriptions, feature usage, support tickets, and churn events. These datasets are combined through a data pipeline to create a unified analytics dataset used for machine learning and visualization.
 
-Machine learning
+The platform demonstrates the full workflow of a modern analytics product:
 
-Cloud database integration
-
-Interactive analytics dashboard
-
-Predictive churn risk scoring
-
-The platform analyzes SaaS subscription behavior, predicts churn risk using XGBoost, and provides actionable insights through an interactive Streamlit dashboard.
+Data ingestion → Feature engineering → Machine learning → Risk scoring → Interactive dashboard → Experiment simulation.
