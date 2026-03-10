@@ -2,5 +2,9 @@ venv/
 .env
 __pycache__/
 *.pkl
-*.csv
 *.zip
+# ignore raw datasets
+data/ravenstack_*.csv
+
+# allow master dataset
+!data/master_dataset.csv
