@@ -8,3 +8,4 @@ data/ravenstack_*.csv
 
 # allow master dataset
 !data/master_dataset.csv
+*.docx
