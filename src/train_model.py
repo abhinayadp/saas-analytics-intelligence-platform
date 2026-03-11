@@ -119,6 +119,6 @@ if __name__ == "__main__":
 
     master["churn_risk_score"] = all_probs
 
-    master.to_csv(DATA_PATH / "master_dataset.csv", index=False)
+    master.to_csv("data/master_dataset.csv", index=False)
 
     print("Risk scores added to master dataset.")
